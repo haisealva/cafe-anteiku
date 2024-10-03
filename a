@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café  Anteiku</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Café  Anteiku</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="inicio">
+        <h2>Bienvenido a Café  Anteiku</h2>
+        <p>Disfruta de un ambiente acogedor y un café excepcional.</p>
+    </section>
+    
+    <section id="menu">
+        <h2>Nuestro Menú</h2>
+        <ul>
+            <li>Café Espresso - $2.50</li>
+            <li>Café Americano - $2.00</li>
+            <li>Capuchino - $3.00</li>
+            <li>Pastel de Chocolate - $2.50</li>
+        </ul>
+    </section>
+    
+    <section id="sobre-nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>Café  Anteiku ha sido un lugar de encuentro desde 2023, ofreciendo los mejores cafés y un ambiente relajante.</p>
+    </section>
+    
+    <section id="contacto">
+        <h2>CONTACTANOS</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Café  Anteiku . Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
